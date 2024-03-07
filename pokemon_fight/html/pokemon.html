@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="../css/pokemon.css">
+</head>
+<body>
+    <h1 class="title">POKEMON</h1>
+    <section id="select-your-pokemon">
+        <h2 class="subtitle">SELECT YOUR POKEMON</h2>
+        
+        <div id="cards_container" class="cards">
+        </div>
+        
+        <br>
+        <button id="select_pokemon_button">select</button>
+    </section>
+
+    <section id="watch_map">
+            <h1 class="titulo">GO AROUND THE MAP WITH YOUR POKEMON</h1>
+            <canvas id="map"></canvas>
+            <button onmousedown="moveUp()" onmouseup="stopMove()">UP</button>
+            <div>
+                <button onmousedown="moveLeft()" onmouseup="stopMove()">LEFT</button>
+                <button onmousedown="moveDown()" onmouseup="stopMove()">DOWN</button>
+                <button onmousedown="moveRight()" onmouseup="stopMove()">RIGHT</button>
+            </div>
+    </section>
+
+    <section id="select-your-attack" >
+
+        <h2 class="subtitle-attack">select your attack</h2>
+
+        <div id="attacks_container" class="attack-card">
+        </div>
+        
+        <section id="messages">
+            <p id="result">GOOD LUCK</p>
+        </section>
+
+        <section id="reset">
+            <button id="reset_button">reset</button>
+        </section>
+        <div class="attacks">
+            <div class="player-attacks">
+                <p id="lives_player">0</p>
+                <p id="pokemon_player"></p>
+                <div id="player-attack-message"></div>
+            </div>
+            <div class="enemy-attacks">
+                <p id="lives_enemy">0</p>
+                <p id="pokemon_enemy"></p>
+                <div id="enemy-attack-message"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="../js/pokemon.js"></script>
+</body>
+</html>
+

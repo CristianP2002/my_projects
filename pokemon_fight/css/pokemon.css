@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+
+body {
+    background-color: #8CB9BD;
+    font-family: "Micro 5", sans-serif;
+}
+
+.title {
+    color: #FEFBF6;
+    font-size: 100px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #FEFBF6;
+    text-align: center;
+    font-size: 30px;
+}
+
+#select-your-pokemon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards, .attack-card {
+    display: flex;
+    gap: 10px;
+}
+
+.pokemon-card {
+    width: 170px;
+    height: 100px;
+    background-color: whitesmoke;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-card p {
+    width: 80px;
+}
+.pokemon-card img {
+    width: 100px;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    background-color: #33CCCC;
+}
+
+#select_pokemon_button {
+    padding: 10px 20px;
+    background-color: #ECB159;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#select_pokemon_button:hover {
+    background-color: #B67352;
+}
+
+#select_pokemon_button:active {
+    background-color: #b35b2f;
+}
+
+.subtitle-attack {
+    color: #FEFBF6;
+    text-align: center;
+    font-size: 30px;
+}
+
+#select-your-attack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attack-button {
+    padding: 10px 20px;
+    background-color: #ECB159;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.attack-button:hover {
+    background-color: #B67352;
+}
+.attack-button:active {
+    background-color: #b35b2f;
+}
+
+#messages {
+    width: 280px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#reset_button {
+    color: #093f8b;
+    margin-top: -30px;
+    border-radius: 10px;
+    border-color: #000;
+}
+
+.attacks {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.player-attacks,
+.enemy-attacks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#watch_map {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#watch_map button{
+    padding: 10px 20px;
+    margin: 5px 5px;
+    background-color: #ECB159;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 360px) {
+    .cards, .attack-card {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 360px) {
+    #watch_map div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
