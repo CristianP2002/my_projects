@@ -1,0 +1,443 @@
+body {
+    background-color: #264653;
+    color: #E9C46A ;
+    padding: 0 auto;
+    border: #2A9D8F 2px solid;
+    margin: 2rem;
+    align-items: center;
+}
+
+header {
+    background-color: #2A9D8F;
+    text-align: center;
+}
+
+div.buttons {
+    border: 2px solid #F4A261;
+    border-radius: 10px 0 10px 0;
+    background-color: #2A9D8F;
+    margin: 20px 300px;
+    padding: 10px;
+}
+
+div.buttons h4 {
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+div.buttons #aceptar {
+    margin-left: 100px;
+    background-color: #264653;
+    border-radius: 50px;
+}
+
+div.card {
+    background-color: #2A9D8F;
+    margin: 1rem;
+    padding: 0;
+    border: 2px solid #F4A261;
+}
+
+#contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+div.card img {
+    border: #264653 5px solid;
+    border-radius: 10px 0px 10px 0px;
+    height: 200px;
+}
+
+a {
+    font-size: 12px;
+    color: #F4A261;
+}
+
+a:is(:hover,:focus) {
+    color: #264653;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+ul.pagination {
+    justify-content: center;
+}
+
+
+
+
+
+@media (max-width: 1440px) {
+    body {
+        background-color: #264653;
+        color: #E9C46A ;
+        padding: 0 auto;
+        border: #2A9D8F 2px solid;
+        margin: 2rem;
+        align-items: center;
+    }
+    
+    header {
+        background-color: #2A9D8F;
+        text-align: center;
+    }
+    
+    div.buttons {
+        border: 2px solid #F4A261;
+        border-radius: 10px 0 10px 0;
+        background-color: #2A9D8F;
+        margin: 20px 110px;
+        padding: 30px;
+    }
+    
+    div.buttons h4 {
+        display: inline-flex;
+        margin: 10px;
+        padding: 20px;
+    
+    }
+    
+    div.buttons #aceptar {
+        margin-left: 450px;
+        background-color: #264653;
+        border-radius: 50px;
+    }
+    
+    div.card {
+        background-color: #2A9D8F;
+        margin: 1rem;
+        padding: 0;
+        border: 2px solid #F4A261;
+    }
+    
+    #contenido {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 10px;
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    
+    div.card img {
+        border: #264653 5px solid;
+        border-radius: 10px 0px 10px 0px;
+    }
+    
+    a {
+        font-size: 12px;
+        color: #F4A261;
+    }
+    
+    a:is(:hover,:focus) {
+        color: #264653;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    ul.pagination {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+@media (max-width: 1320px) {
+    body {
+        background-color: #264653;
+        color: #E9C46A ;
+        padding: 0 auto;
+        border: #2A9D8F 2px solid;
+        margin: 2rem;
+        align-items: center;
+    }
+    
+    header {
+        background-color: #2A9D8F;
+        text-align: center;
+    }
+    
+    div.buttons {
+        border: 2px solid #F4A261;
+        border-radius: 10px 0 10px 0;
+        background-color: #2A9D8F;
+        margin: 20px 150px;
+        padding: 30px;
+    }
+    
+    div.buttons h4 {
+        display: inline-flex;
+        margin: 10px;
+        padding: 20px;
+    
+    }
+    
+    div.buttons #aceptar {
+        margin-left: 20px;
+        background-color: #264653;
+        border-radius: 50px;
+    }
+    
+    div.card {
+        background-color: #2A9D8F;
+        margin: 1rem;
+        padding: 0;
+        border: 2px solid #F4A261;
+    }
+    
+    #contenido {
+        display: flexbox;
+        justify-content: center;
+    }
+    
+    div.card img {
+        border: #264653 5px solid;
+        border-radius: 10px 0px 10px 0px;
+    }
+    
+    a {
+        font-size: 12px;
+        color: #F4A261;
+    }
+    
+    a:is(:hover,:focus) {
+        color: #264653;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    ul.pagination {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+@media (max-width: 1366px) {
+    body {
+        background-color: #264653;
+        color: #E9C46A ;
+        padding: 0 auto;
+        border: #2A9D8F 2px solid;
+        margin: 2rem;
+        align-items: center;
+    }
+    
+    header {
+        background-color: #2A9D8F;
+        text-align: center;
+    }
+    
+    div.buttons {
+        border: 2px solid #F4A261;
+        border-radius: 10px 0 10px 0;
+        background-color: #2A9D8F;
+        margin: 20px 60px;
+        padding: 30px;
+    }
+    
+    div.buttons h4 {
+        display: inline-flex;
+        margin: 10px;
+        padding: 20px;
+    
+    }
+    
+    div.buttons #aceptar {
+        margin-left: 500px;
+        background-color: #264653;
+        border-radius: 50px;
+    }
+    
+    div.card {
+        background-color: #2A9D8F;
+        margin: 1rem;
+        padding: 0;
+        border: 2px solid #F4A261;
+    }
+    
+    #contenido {
+        display: flexbox;
+        margin-left: -10px;
+    }
+    
+    div.card img {
+        border: #264653 5px solid;
+        border-radius: 10px 0px 10px 0px;
+    }
+    
+    a {
+        font-size: 12px;
+        color: #F4A261;
+    }
+    
+    a:is(:hover,:focus) {
+        color: #264653;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    ul.pagination {
+        justify-content: center;
+    }
+}
+
+
+
+
+@media (max-width: 720px) {
+    body {
+        background-color: #264653;
+        color: #E9C46A ;
+        padding: 0 auto;
+        border: #2A9D8F 2px solid;
+        margin: 2rem;
+        align-items: center;
+    }
+    
+    header {
+        background-color: #2A9D8F;
+        text-align: center;
+    }
+    
+    div.buttons {
+        border: 2px solid #F4A261;
+        border-radius: 10px 0 10px 0;
+        background-color: #2A9D8F;
+        margin: 20px 50px;
+        padding: 20px;
+    }
+    
+    div.buttons h4 {
+        display: inline-flex;
+        margin: 10px;
+        padding: 20px;
+    
+    }
+    
+    div.buttons #aceptar {
+        margin-left: 200px;
+        background-color: #264653;
+        border-radius: 50px;
+    }
+    
+    div.card {
+        background-color: #2A9D8F;
+        margin: 1rem;
+        padding: 0;
+        border: 2px solid #F4A261;
+    }
+    
+    #contenido {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 3fr;
+        padding: 50px;
+        margin-top: -50px;
+        margin-left: -53px;
+    }
+    
+    div.card img {
+        border: #264653 5px solid;
+        border-radius: 10px 0px 10px 0px;
+    }
+    
+    a {
+        font-size: 12px;
+        color: #F4A261;
+    }
+    
+    a:is(:hover,:focus) {
+        color: #264653;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    ul.pagination {
+        justify-content: center;
+    }
+}
+
+
+
+
+@media (max-width: 375px) {
+    body {
+        background-color: #264653;
+        color: #E9C46A ;
+        padding: 0 auto;
+        border: #2A9D8F 2px solid;
+        margin: 1rem;
+        align-items: center;
+    }
+    
+    header {
+        background-color: #2A9D8F;
+        text-align: center;
+    }
+    
+    div.buttons {
+        border: 2px solid #F4A261;
+        border-radius: 10px 0 10px 0;
+        background-color: #2A9D8F;
+        margin: 20px 20px;
+        padding: 20px;
+    }
+    
+    div.buttons h4 {
+        display: inline-flex;
+        margin: 10px;
+        padding: 5px;
+    
+    }
+    
+    div.buttons #aceptar {
+        background-color: #264653;
+        border-radius: 50px;
+        margin-left: 20px;
+    }
+    
+    div.card {
+        background-color: #2A9D8F;
+        margin: 1rem;
+        padding: 0;
+        border: 2px solid #F4A261;
+    }
+    
+    #contenido {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px;
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+    
+    div.card img {
+        border: #264653 5px solid;
+        border-radius: 10px 0px 10px 0px;
+    }
+    
+    a {
+        font-size: 12px;
+        color: #F4A261;
+    }
+    
+    a:is(:hover,:focus) {
+        color: #264653;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    ul.pagination {
+        justify-content: center;
+    }
+}
