@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon</title>
-    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="css/pokemon.css">
 </head>
 <body>
     <h1 class="title">POKEMON</h1>
@@ -21,11 +21,11 @@
     <section id="watch_map">
             <h1 class="titulo">GO AROUND THE MAP WITH YOUR POKEMON</h1>
             <canvas id="map"></canvas>
-            <button onmousedown="moveUp()" onmouseup="stopMove()">UP</button>
+            <button ontouchstart="moveUp()" onmousedown="moveUp()" ontouchend="stopMove()" onmouseup="stopMove()">UP</button>
             <div>
-                <button onmousedown="moveLeft()" onmouseup="stopMove()">LEFT</button>
-                <button onmousedown="moveDown()" onmouseup="stopMove()">DOWN</button>
-                <button onmousedown="moveRight()" onmouseup="stopMove()">RIGHT</button>
+                <button  ontouchstart="moveLeft()" onmousedown="moveLeft()" ontouchend="stopMove()" onmouseup="stopMove()">LEFT</button>
+                <button  ontouchstart="moveDown()" onmousedown="moveDown()" ontouchend="stopMove()" onmouseup="stopMove()">DOWN</button>
+                <button  ontouchstart="moveRight()" onmousedown="moveRight()" ontouchend="stopMove()" onmouseup="stopMove()">RIGHT</button>
             </div>
     </section>
 
@@ -58,7 +58,7 @@
 
     </section>
 
-    <script src="../js/pokemon.js"></script>
+    <script src="js/pokemon.js"></script>
 </body>
 </html>
 

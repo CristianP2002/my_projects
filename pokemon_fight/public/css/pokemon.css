@@ -145,15 +145,25 @@ input:checked + label {
     cursor: pointer;
 }
 
-
-
-@media (max-width: 360px) {
+@media (max-width: 420px) {
     .cards, .attack-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+        gap: 10px; /* Espacio entre las cartas */
+    }
+
+    #watch_map div{
+        display: flex;
+        align-items: center;
         flex-direction: column;
     }
 }
 
 @media (max-width: 360px) {
+    .cards, .attack-card {
+        flex-direction: column;
+    }
+
     #watch_map div{
         display: flex;
         align-items: center;

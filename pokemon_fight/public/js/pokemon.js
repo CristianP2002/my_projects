@@ -210,7 +210,7 @@ function iniciateGame() {
 }
 
 function joinToGame() {
-    fetch("http://localhost:8080/join")
+    fetch("http://192.168.1.7:8080/join")
         .then(function (res) {
             if (res.ok) {
                 res.text()
@@ -223,9 +223,6 @@ function joinToGame() {
 }
 
 function selectPlayerPokemon() {
-    ocultSelectedPokemon.style.display = 'none'
-
-    resetSection.style.display = 'none'
 
     if(inputGyarados.checked) {
         spanPokemonJugador.innerHTML = inputGyarados.id
@@ -248,6 +245,7 @@ function selectPlayerPokemon() {
     } else {
         alert('select a pokemon')
     }
+    
 
     selectPokemon(pokemonPlayer) 
 
@@ -258,7 +256,7 @@ function selectPlayerPokemon() {
 }
 
 function selectPokemon(pokemonPlayer) {
-    fetch(`http://localhost:8080/pokemon/${idPlayer}`, {
+    fetch(`http://192.168.1.7:8080/pokemon/${idPlayer}`, {
         method: "post",
         headers: {
             "Content-Type": "application/json"
@@ -324,7 +322,7 @@ function attackSecuency() {
 }
 
 function sendAttack() {
-    fetch(`http://localhost:8080/pokemon/${idPlayer}/attacks`, {
+    fetch(`http://192.168.1.7:8080/pokemon/${idPlayer}/attacks`, {
         method: "post",
         headers: {
             "Content-Type": "application/json"
@@ -338,7 +336,7 @@ function sendAttack() {
 }
 
 function obtainAttacks() {
-    fetch(`http://localhost:8080/pokemon/${idEnemy}/attacks`)
+    fetch(`http://192.168.1.7:8080/pokemon/${idEnemy}/attacks`)
         .then(function(res) {
             if(res.ok) {
                 res.json()
@@ -492,7 +490,7 @@ function paintCanvas() {
 }
 
 function sendPosition(x, y) {
-    fetch(`http://localhost:8080/pokemon/${idPlayer}/position`, {
+    fetch(`http://192.168.1.7:8080/pokemon/${idPlayer}/position`, {
         method: "post",
         headers: {
             "Content-Type": "application/json"
